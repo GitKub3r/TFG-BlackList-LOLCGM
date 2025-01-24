@@ -1,0 +1,41 @@
+.theme-switch-button {
+  width: 40px;
+  height: 40px;
+
+  padding: var(--size-tiny);
+
+  background-color: var(--primary-color);
+
+  border-color: var(--background);
+  border-radius: 100%;
+
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 var(--size-default);
+
+  position: fixed;
+  bottom: var(--size-default);
+  right: var(--size-tiny);
+  z-index: 999;
+}
+
+.theme-switch-button:hover {
+  background-color: var(--background);
+}
+
+.theme-switch-button svg:first-child {
+  display: none;
+}
+
+.lightmode .theme-switch-button svg:first-child {
+  display: block;
+}
+
+.lightmode .theme-switch-button svg:last-child {
+  display: none;
+}

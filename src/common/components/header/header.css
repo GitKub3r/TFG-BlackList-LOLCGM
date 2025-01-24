@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Protest+Guerrilla&display=swap");
+
+.main-app-header {
+  width: 100%;
+  padding: var(--size-default);
+  background-color: var(--primary-color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-title {
+  font-size: 2.5rem;
+  font-family: "Protest Guerrilla", sans-serif;
+  letter-spacing: 0.25rem;
+}
+
+.main-app-nav {
+  flex-grow: 1;
+}
+
+.main-app-nav-menu {
+  width: 100%;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: var(--size-double);
+
+  list-style: none;
+}
+
+.main-app-nav-menu-item {
+  padding: var(--size-small);
+}

@@ -1,4 +1,5 @@
 @import "./colors.css";
+@import "././sizes.css";
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Protest+Guerrilla&display=swap");
 
 * {
@@ -14,6 +15,89 @@ html {
 }
 
 body {
+  width: 100%;
+  min-height: 100dvh;
+
   background-color: var(--background);
   color: var(--text-color);
+}
+
+img {
+  max-width: var(--image-maxsize);
+  border-radius: var(--border-radius);
+
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+
+  font-weight: bold;
+}
+
+a.hover-links {
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--text-color);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+svg {
+  width: var(--size-default);
+  fill: var(--text-color);
+}
+
+p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+
+  color: var(--subtext-color);
+}
+
+hr {
+  width: 75%;
+  border-color: var(--text-color);
+  margin: var(--margin-small) 0;
+}
+
+.default-container {
+  width: 100%;
+  height: auto;
+
+  padding: var(--size-default) 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  flex-direction: column;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }

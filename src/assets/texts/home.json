@@ -1,0 +1,13 @@
+{
+  "welcome": {
+    "title": "Welcome to BlackList",
+    "subtitle": "LOLCGM Community App",
+    "desc": "This is a community app for League of Legends Custom Gamemodes. You can find all the information about the community in our about page!"
+  },
+
+  "hoster": {
+    "title": "Become a Hoster",
+    "subtitle": "Access to our services",
+    "desc": "You can become a hoster to access to all of our services. You can find all the information about the hoster in our about page!"
+  }
+}
