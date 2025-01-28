@@ -1,7 +1,11 @@
+import "./home.css";
+
 import { TitleGroup } from "../../components/title-group/TitleGroup";
 import { HomeTexts } from "../../types/HomeTexts";
 import homeText from "../../../assets/texts/home.json";
-import "./home.css";
+import { ImageGroup } from "../../components/image-group/ImageGroup";
+
+import image1 from "../../../assets/images/lol.webp";
 
 export const Home = () => {
   const texts: HomeTexts = homeText;
@@ -16,7 +20,9 @@ export const Home = () => {
 
       <hr />
 
-      <TitleGroup
+      <ImageGroup
+        image={image1}
+        alt={"league of legends icon"}
         title={texts.hoster.title}
         subtitle={texts.hoster.subtitle}
         desc={texts.hoster.desc}

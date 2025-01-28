@@ -17,7 +17,7 @@ export const Header = ({ items }: HeaderProps) => {
         <ul className="main-app-nav-menu">
           {restItems.map((item, index) => (
             <li className="main-app-nav-menu-item" key={index}>
-              <Link to={item.src} className="hover-links">
+              <Link to={item.src} className="hover-link">
                 {item.label}
               </Link>
             </li>

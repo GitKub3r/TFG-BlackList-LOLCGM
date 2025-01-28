@@ -2,11 +2,14 @@
   --background: #0f1121;
   --primary-color: #181e3a;
   --secondary-color: #21294f;
+  --tertiary-color: #080a15;
   --placeholder-color: #4f4f4f;
   --accent-color: #0071db;
   --text-color: #d6d6d6;
   --subtext-color: #7c7c7c;
   --input-color: #121324;
+  --link-color: #0084ff;
+  --special-color: #23276f;
   --separator-color: #2e3945;
   --button-color: #004f9a;
   --button-hover: #00386c;
@@ -15,17 +18,20 @@
 }
 
 .lightmode {
-  --background: #e0e0e0;
-  --primary-color: #cbcbcb;
-  --secondary-color: #ababab;
-  --placeholder-color: #7f7f7f;
-  --accent-color: #005bb5;
-  --text-color: #1a1a1a;
-  --subtext-color: #5a5a5a;
-  --input-color: #d6d6d6;
-  --separator-color: #b0b0b0;
-  --button-color: #005bb5;
-  --button-hover: #004494;
-  --button-delete-hover: #e04a4a;
-  --error: #e04a4a;
+  --background: #e3e4eb;
+  --primary-color: #c2c6d6;
+  --secondary-color: #a9aec3;
+  --tertiary-color: #a5a6ae;
+  --placeholder-color: #868686;
+  --accent-color: #0056b3;
+  --text-color: #2a2a2a;
+  --subtext-color: #525252;
+  --input-color: #f2f2f2;
+  --link-color: #0058aa;
+  --special-color: #5256b2;
+  --separator-color: #b1b1b1;
+  --button-color: #004aad;
+  --button-hover: #00387f;
+  --button-delete-hover: #e64545;
+  --error: #cc0000;
 }

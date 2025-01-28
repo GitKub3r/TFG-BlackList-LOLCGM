@@ -1,0 +1,19 @@
+{
+  "general": {
+    "title": "General <span class='special-title'>Information</span>",
+    "subtitle": "About BlackList",
+    "desc": "Blacklist is the ultimate tool for managing and maintaining a supervised and controlled environment for <span class='important'>LOLCGM</span> community."
+  },
+
+  "services": {
+    "title": "<span class='special-title'>Main</span> Services",
+    "subtitle": "What we offer",
+    "desc": "We provide a wide range of tools to ensure easy of use and control of the <span class='important'>BlackList database</span>. Hosters will be able to add, modify, delete and manage players inside of a global database."
+  },
+
+  "hosters": {
+    "title": "Hoster <span class='special-title'>Accounts</span>",
+    "subtitle": "How to get one",
+    "desc": "To access BlackList services, you need to request a <span class='important'>Hoster Account</span> in the contact section down bellow. After some internal validation, you will receive an email with your account credentials."
+  }
+}

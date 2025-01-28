@@ -8,13 +8,21 @@ export const TitleGroup = ({
 }: TitleGroupProps) => {
   return (
     <div className="title-group-container">
-      <div className="title-group col">
-        <div className="title-container">
-          <h1 className="title-group-title">{title}</h1>
-          {subtitle && <p className="title-group-subtitle">{subtitle}</p>}
-        </div>
-        <hr />
-        <span className="title-group-description">{desc}</span>
+      <div className="title-container">
+        <h1 className="title" dangerouslySetInnerHTML={{ __html: title }}></h1>
+        {subtitle && (
+          <p
+            className="subtitle"
+            dangerouslySetInnerHTML={{ __html: subtitle }}
+          ></p>
+        )}
+      </div>
+
+      <div className="desc-container">
+        <span
+          className="description"
+          dangerouslySetInnerHTML={{ __html: desc }}
+        ></span>
       </div>
     </div>
   );

@@ -1,13 +1,13 @@
 {
   "welcome": {
-    "title": "Welcome to BlackList",
+    "title": "Welcome to <span class='special-title'>BlackList</span>",
     "subtitle": "LOLCGM Community App",
-    "desc": "This is a community app for League of Legends Custom Gamemodes. You can find all the information about the community in our about page!"
+    "desc": "This is a web application for League of Legends Custom Gamemodes community. You can find all the information in our <a href='/about' data-discover='true'>about</a> page!"
   },
 
   "hoster": {
-    "title": "Become a Hoster",
+    "title": "Become a <span class='special-title'>Hoster</span>",
     "subtitle": "Access to our services",
-    "desc": "You can become a hoster to access to all of our services. You can find all the information about the hoster in our about page!"
+    "desc": "Request a hoster account to access all of our services. You can find all the information in our <a href='/about' data-discover='true'>about</a> page!"
   }
 }

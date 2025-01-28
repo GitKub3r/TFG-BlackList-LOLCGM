@@ -1,0 +1,21 @@
+.main-app-footer {
+  padding: 1rem;
+
+  background-color: var(--tertiary-color);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-app-footer-copyright-section {
+  width: 100%;
+  text-align: center;
+  margin: var(--margin-small) 0;
+}
+
+.footer-contact-list {
+  list-style: none;
+  text-align: center;
+}
