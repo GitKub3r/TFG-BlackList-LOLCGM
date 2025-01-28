@@ -1,5 +1,5 @@
 import "./about.css";
-import aboutText from "../../../assets/texts/about.json";
+import aboutText from "../../../assets/utils/json/about.json";
 import { AboutTexts } from "../../types/AboutTexts";
 import { TitleGroup } from "../../components/title-group/TitleGroup";
 

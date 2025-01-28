@@ -4,4 +4,5 @@ export interface ImageGroupProps {
   title: string;
   subtitle: string;
   desc: string;
+  inverted?: boolean;
 }

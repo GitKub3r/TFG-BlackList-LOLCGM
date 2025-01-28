@@ -7,9 +7,10 @@ export const ImageGroup = ({
   title,
   subtitle,
   desc,
+  inverted,
 }: ImageGroupProps) => {
   return (
-    <div className="image-group-container">
+    <div className={`image-group-container ${inverted ? "inverted" : ""}`}>
       <div className="image-container">
         <img src={image} alt={alt} />
       </div>

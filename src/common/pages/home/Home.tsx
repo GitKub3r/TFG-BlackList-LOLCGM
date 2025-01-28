@@ -1,27 +1,30 @@
 import "./home.css";
 
-import { TitleGroup } from "../../components/title-group/TitleGroup";
 import { HomeTexts } from "../../types/HomeTexts";
-import homeText from "../../../assets/texts/home.json";
 import { ImageGroup } from "../../components/image-group/ImageGroup";
 
-import image1 from "../../../assets/images/lol.webp";
+import logoIMG from "../../../assets/images/background-logo.png";
+import hosterIMG from "../../../assets/images/aram-background.jpg";
+
+import homeText from "../../../assets/utils/json/home.json";
 
 export const Home = () => {
   const texts: HomeTexts = homeText;
 
   return (
     <main className="home-app-container default-container col">
-      <TitleGroup
+      <ImageGroup
+        image={logoIMG}
         title={texts.welcome.title}
         subtitle={texts.welcome.subtitle}
         desc={texts.welcome.desc}
+        inverted={true}
       />
 
       <hr />
 
       <ImageGroup
-        image={image1}
+        image={hosterIMG}
         alt={"league of legends icon"}
         title={texts.hoster.title}
         subtitle={texts.hoster.subtitle}

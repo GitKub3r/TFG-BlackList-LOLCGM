@@ -1,0 +1,18 @@
+[
+  {
+    "src": "/",
+    "label": "BlackList"
+  },
+  {
+    "src": "/about",
+    "label": "About"
+  },
+  {
+    "src": "/database",
+    "label": "Database"
+  },
+  {
+    "src": "/profile",
+    "label": "Profile"
+  }
+]

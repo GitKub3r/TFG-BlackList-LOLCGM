@@ -1,0 +1,35 @@
+.not-found-app-container {
+  min-height: 100dvh;
+
+  background-image: url("../../../assets/images/not-found-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-container {
+  width: 30%;
+  min-height: 300px;
+  padding: var(--size-default);
+
+  border-radius: var(--border-radius-default);
+
+  background-color: var(--background);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: var(--size-big);
+}
+
+.message-container h1 {
+  font-size: 3.5rem;
+}

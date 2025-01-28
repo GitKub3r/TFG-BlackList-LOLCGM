@@ -1,0 +1,14 @@
+[
+  {
+    "src": "/",
+    "label": "BlackList"
+  },
+  {
+    "src": "/about",
+    "label": "About"
+  },
+  {
+    "src": "/login",
+    "label": "Login"
+  }
+]

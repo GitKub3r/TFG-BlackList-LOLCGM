@@ -1,7 +1,6 @@
 import { Link } from "react-router";
 import { HeaderProps } from "../../types/HeaderProps";
 import "./header.css";
-import { ThemeSwitch } from "../theme-switch/ThemeSwitch";
 
 export const Header = ({ items }: HeaderProps) => {
   const [firstItem, ...restItems] = items;
